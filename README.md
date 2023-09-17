@@ -11,4 +11,4 @@ The Unix Timestamp Calculator is a Java program that converts a human-readable d
    git clone https://github.com/your-username/UnixTimestampCalculator.git
    ```
 
-   If on Windows, you can add a .bat file: java -jar unix-timestamp-1.0-SNAPSHOT.jar
+2. If on Windows, you can add a .bat file: `java -jar unix-timestamp-1.0-SNAPSHOT.jar`
