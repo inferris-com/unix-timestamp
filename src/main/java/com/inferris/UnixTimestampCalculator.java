@@ -7,7 +7,19 @@ import java.util.TimeZone;
 
 import java.util.Scanner;
 
+/**
+ * The UnixTimestampCalculator class is a Java program that converts a human-readable date and time into a Unix timestamp.
+ * A Unix timestamp represents the number of seconds that have elapsed since January 1, 1970 (Coordinated Universal Time, UTC).
+ */
 public class UnixTimestampCalculator {
+
+    /**
+     * The main method of the UnixTimestampCalculator program.
+     * It prompts the user to enter a date and time in the format "yyyy-MM-dd HH:mm:ss",
+     * converts it into a Unix timestamp, and displays the result.
+     *
+     * @param args The command-line arguments (not used).
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
