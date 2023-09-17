@@ -1,5 +1,6 @@
 package com.inferris;
 
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,7 +21,7 @@ public class UnixTimestampCalculator {
      *
      * @param args The command-line arguments (not used).
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter date and time (yyyy-MM-dd HH:mm:ss): ");
@@ -33,10 +34,9 @@ public class UnixTimestampCalculator {
             Date date = sdf.parse(inputDateTime);
             long unixTimestamp = date.getTime() / 1000; // Convert milliseconds to seconds
             System.out.println("Unix Timestamp: " + unixTimestamp);
+            scanner.nextLine();
         } catch (ParseException e) {
             e.printStackTrace();
-        } finally {
-            scanner.close();
         }
     }
 }
