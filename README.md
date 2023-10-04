@@ -11,7 +11,7 @@ The primary use cases of the calculator is to edit database timestamps when need
    Clone this repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/your-username/UnixTimestampCalculator.git
+   git clone https://github.com/inferris-com/UnixTimestampCalculator.git
    ```
 
 2. If on Windows, you can add a .bat file: `java -jar unix-timestamp-1.0-SNAPSHOT.jar`
